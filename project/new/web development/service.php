@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/dbed6b6114.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="icon" href="logo.jpg" type="image/jpg" />
+  </head>
+  <body>
+    <div class="topnav_container">
+      <div class="col-md-5 col-sm-12" id="web_name">
+        <span class="hr"
+          ><a href="index.php" style="color: black; text-decoration: none"
+            >Hotel Website</a
+          ></span
+        >
+      </div>
+      <div class="col-md-7 col-sm-12">
+        <div class="topnav" id="myTopnav">
+          <a href="index.php">Home</a>
+          <a href="service.php">Services</a>
+          <a href="rooms.php">Rooms</a>
+          <a href="customers.php">Customers</a>
+          <a href="contact.php">Contact Us</a>
+          <a href="checkout.php">Check Out</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="login_form.php">Log In/ Sign Up</a>
+          
+        </div>
+      </div>
+    </div>
+    <section class="services sec-width" id="services">
+      <div class="container-fluid"> <h2 class="title" style="font-size: 50px;  text-align: center;">Services</h2></div>
+      <div class="services-container">
+        <!--service 1-->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-cocktail"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Food Service / Food Runner</h2>
+            <p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more" style="display: none;">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas.</span></p>
+              <button onclick="myFunction1()" class="btn" id="btn">Read more</button>
+            </p>
+      
+          </div>
+        </article>
+        <!--sevice 1 end-->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-swimming-pool"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Refreshment</h2>
+            <p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots3">...</span><span id="more3" style="display: none;">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas.</span></p>
+              <button onclick="myFunction3()" class="btn" id="btn3">Read more</button>
+            </p>
+            
+          </div>
+        </article>
+        <!--service 2 end-->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-broom"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Housekeeping</h2>
+            <p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots4">...</span><span id="more4" style="display: none;">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas.</span></p>
+              <button onclick="myFunction4()" class="btn" id="btn4">Read more</button>
+            </p>
+          </div>
+        </article>
+        <!--service 3 end-->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-door-closed"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Room Security</h2>
+            <p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2" style="display: none;">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas.</span></p>
+              <button onclick="myFunction2()" class="btn" id="btn2">Read more</button>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+      <!--footer-->
+      <footer class="footer" id="contactt">
+        <div class="footer-container">
+          <div style="text-align: center">
+            <h2><u>About us</u></h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+              volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat.
+            </p>
+            <ul class="social-icons">
+              <li class="flex">
+                <i class="fa fa-twitter fa-2x"></i>
+              </li>
+              <li class="flex">
+                <i class="fa fa-facebook fa-2x"></i>
+              </li>
+              <li class="flex">
+                <i class="fa fa-instagram fa-2x"></i>
+              </li>
+            </ul>
+          </div>
+  
+          <div style="text-align: center">
+            <h2><u>Useful Links</u></h2>
+            <a href="#">Blog</a>
+            <a href="rooms.php">Rooms</a>
+            <a href="#">Subscription</a>
+            <a href="#">Gift Card</a>
+          </div>
+  
+          <div style="text-align: center">
+            <h2><u>Privacy</u></h2>
+            <a href="#">Career</a>
+            <a href="#">About us</a>
+            <a href="contact.php">Contact us</a>
+            <a href="service.php">Services</a>
+          </div>
+  
+          <div>
+            <h2><u>Have a question?</u></h2>
+            <div class="contact-item">
+              <span>
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              <span>
+                203 Fake St.Mountain View, San Francisco, California,USA
+              </span>
+            </div>
+            <div class="contact-item">
+              <span>
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              <span> 01629450496 </span>
+            </div>
+            <div class="contact-item">
+              <span>
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span> sumaiyakhatunsumu@gmail.com </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+  </body>
+</html>
